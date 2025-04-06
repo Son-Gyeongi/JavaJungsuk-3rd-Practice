@@ -5,8 +5,8 @@ public class Practice4_4 {
         int i, j, sum = 0;
 
         for (i = 0, j = 1; sum < 100; j = -j) {
-            i++;
-            sum += i * j;
+            // i++;
+            sum += ++i * j;
         }
 
         System.out.println("i = " + i);
