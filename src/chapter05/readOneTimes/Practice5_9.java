@@ -20,15 +20,12 @@ public class Practice5_9 {
 
         System.out.println();
 
-        int y = 0;
+        int x = star.length - 1;
         for (int i = 0; i < star.length; i++) {
-            int x = star.length - 1;
-            y = star[i].length - 1;
             for (int j = 0; j < star[i].length; j++) {
-                result[j][i] = star[x][y];
-                x--;
+                result[j][x] = star[i][j];
             }
-            --y;
+            --x;
         }
 
         for (int i = 0; i < result.length; i++) {
