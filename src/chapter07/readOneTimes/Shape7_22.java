@@ -37,7 +37,7 @@ class Circle7_22 extends Shape7_22 {
 
     // 원 넓이 구하기
     public double extent() {
-        return r / 2 * Math.PI;
+        return r * r * Math.PI;
     }
 }
 
