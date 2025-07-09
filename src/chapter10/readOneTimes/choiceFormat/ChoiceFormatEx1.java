@@ -4,6 +4,7 @@ import java.text.ChoiceFormat;
 
 /*
 페이지 548
+특정 범위에 속하는 값을 문자열로 반환해준다.
  */
 public class ChoiceFormatEx1 {
     public static void main(String[] args) {
