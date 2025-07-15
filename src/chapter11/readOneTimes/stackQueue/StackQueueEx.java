@@ -9,7 +9,7 @@ import java.util.Stack;
 Stack - 나중에 넣은 것이 먼저 꺼내지는 구조(LIFO)
 Queue - 먼저 넣은 것이 먼저 꺼내지는 구조(FIFO)
  */
-public class StackQueue {
+public class StackQueueEx {
     public static void main(String[] args) {
         Stack<String> st = new Stack<>();
         Queue<String> q = new LinkedList<>(); // Queue 인터페이스의 구현체인 LinkedList를 사용
